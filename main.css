@@ -1,0 +1,56 @@
+input[name="nome"]{
+    width: 600px;
+    left: 53px;
+}
+input[name="dataNascimento"]{
+    width: 130px;
+    left: 13px;
+}
+input[name="NomeMae"]{
+    width: 600px;
+    left: 1px;
+}
+input[name="NomePai"]{
+    width: 600px;
+    left: 7px;
+}
+input[name="rg"]{
+    width: 100px;
+    left: 21px;
+}
+input[name="cpf"]{
+    width: 100px;
+    left: 69px;
+}
+input[name="email"]{
+    width: 160px;
+    left: 54px;
+}
+
+input{
+    position: relative;
+}
+input:focus{
+    background: turquoise;
+}
+
+label{
+    font-weight: bolder;
+}
+
+#tdNome,#tdMae,#tdPai{
+    
+    width: 300px;
+}
+#tdRg,#tdCpf,#tdEmail,#tdNascimento{
+    
+    width: 100px;
+}
+
+fieldset{
+    background: #DCDCDC;
+    font-weight: bolder;
+}
+table{
+    font-weight: normal;
+}

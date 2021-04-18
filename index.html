@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Cadastro de clientes</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+  <fieldset id="vlrForm">
+    <legend>Cadastro</legend>      
+    <label>Nome</label>
+    <input type="text" name="nome"/><br /><br />
+    <label>Nascimento</label>
+    <input type="text" name="dataNascimento" onblur="saidaDataNascimento()"/><br /><br />
+    <label>Nome da mãe</label>
+    <input type="text" name="NomeMae"/><br /><br />
+    <label>Nome da Pai</label>
+    <input type="text" name="NomePai"/><br /><br />    
+    <label>Identidade</label>
+    <input type="text" name="rg"/><br /><br />        
+    <label>Cpf</label>
+    <input type="text" name="cpf"/><br /><br />            
+    <label>Email</label>
+    <input type="email" name="email"/><br /><br />  
+
+    <input type="button" value="Gravar" onclick="insereDados()"/>
+  </fieldset>
+  <fieldset>
+    <legend>Dados</legend>
+    <table>
+      <thead>
+        <tr>
+          <td id="tdNome">Nome</td>
+          <td id="tdNascimento">Nascimento</td>
+          <td id="tdMae">Mãe</td>
+          <td id="tdPai">Pai</td>
+          <td id="tdRg">Identidade</td>
+          <td id="tdCpf">CPF</td>
+          <td id="tdEmail">Email</td>
+        </tr>  
+      </thead>
+      <tbody>
+               
+      </tbody>
+    </table>
+  </fieldset>
+</body>
+</html>
